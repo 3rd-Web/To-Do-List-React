@@ -84,3 +84,7 @@ input {
     border: none;
     width: 100%;
 }
+
+#icons {
+    cursor: pointer;
+}

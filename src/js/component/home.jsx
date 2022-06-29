@@ -38,9 +38,9 @@ const Home = () => {
 						</div>
 						<div className="" id="dropdown">
 							{todos.map((item, index) =>
-								<li id="icon"><i class="fa-solid fa-quote-left fa-fade fa-2xs" onClick={() =>
+								<li id="icon"><i class="fa-solid fa-quote-left fa-fade fa-2xs" id="icons" onClick={() =>
 									setTodos(todos.filter((t, currentIndex) => index != currentIndex))}></i>&nbsp;&nbsp;&nbsp;
-									{item}&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-quote-right fa-fade fa-2xs" onClick={() =>
+									{item}&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-quote-right fa-fade fa-2xs" id="icons" onClick={() =>
 										setTodos(todos.filter((t, currentIndex) => index != currentIndex))}></i>
 								</li>)}
 						</div>
