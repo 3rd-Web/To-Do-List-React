@@ -1,12 +1,86 @@
+.container-fluid {
+    /* background-image: url(https://i.pinimg.com/originals/72/f3/ff/72f3ff0dbdf371852f5fcf1ec6215ae2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 100vh;
+    background: #d9a7c7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fffcdc, #d9a7c7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fffcdc, #d9a7c7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-/* 
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container {
+    max-width: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    background: #FFEFBA;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #FFEFBA);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #FFEFBA);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-*/
+}
+
+#header {
+    text-align: center;
+    font-family: 'Megrim';
+    font-size: 75px;
+
+}
+
+#footer {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 100;
+    margin-top: 285px;
+    color: rgb(155, 155, 155);
+}
+
+#number {
+    color: black;
+}
+
+#placeholder {
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Swanky and Moo Moo', cursive;
+    background-color: rgba(220, 182, 255, 0.257);
+}
+
+#list {
+    margin-right: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    list-style: none;
+    font-size: 18px;
+    font-size: 22px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+#dropdown {
+    margin-right: 30px;
+    margin-left: 0px;
+    align-content: center;
+    padding: 5px;
+    list-style: none;
+    font-family: 'Swanky and Moo Moo', cursive;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#icon {
+    text-align: center;
+}
+
+input {
+    border: none;
+    width: 100%;
+}
